@@ -8,3 +8,4 @@ Updates To Jon Chretien
 -text aligned
 -mobile query corrected
 -tablet query corrected
+-font size changed

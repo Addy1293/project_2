@@ -66,7 +66,7 @@
     padding: 20px;
     grid-row-gap: 10px;
     grid-column-gap: 15px;
-    font-size: 60px; 
+    font-size: 25px; 
 }
 /* Photography */
 .grid {
@@ -91,7 +91,7 @@
     text-align: center;
     letter-spacing: 1px;
     margin-left: -5px;
-    font-size: 60px;
+    font-size: 17px;
 }
 /* Lines between sheets */
 hr {
@@ -140,7 +140,7 @@ a:hover{
 }
 /* H1s */
 h1{
-    font-size: 70%;
+    font-size: 60px;
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -241,7 +241,7 @@ h4{
       font-size: 20px;
     }
      p{
-      font-size: 10px;
+      font-size: 18px;
     }
     .role{
       font-size: 7px;
@@ -292,7 +292,7 @@ h4{
         font-size: 32px;
         }
       p{
-        font-size: 25px;
+        font-size: 28px;
         }
       .role{
         font-size: 15px;
