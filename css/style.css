@@ -66,7 +66,7 @@
     padding: 20px;
     grid-row-gap: 10px;
     grid-column-gap: 15px;
-    font-size: 17px; 
+    font-size: 60px; 
 }
 /* Photography */
 .grid {
@@ -86,11 +86,12 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 20px;
-    grid-row-gap: 10px;
-    grid-column-gap: 15px;
+    grid-row-gap: 8px;
+    grid-column-gap: 7px;
     text-align: center;
     letter-spacing: 1px;
     margin-left: -5px;
+    font-size: 60px;
 }
 /* Lines between sheets */
 hr {
@@ -139,7 +140,7 @@ a:hover{
 }
 /* H1s */
 h1{
-    font-size: 50px;
+    font-size: 70%;
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -198,7 +199,7 @@ h4{
 /*///////////////////// Mobile View \\\\\\\\\\\\\\\\\*/
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px) 
+  and (max-device-width: 550px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     .container_1{
       display: grid;
@@ -214,9 +215,9 @@ h4{
       width: 50%;
     }
     .grid{
-      /* display: grid; */
-      grid-template-columns: repeat(1,5fr);
-      grid-template-rows: repeat(1,5fr);
+      display: list-item;
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(1,1fr);
       height: 80%;
       width: 70%;
       text-align: right;
@@ -228,7 +229,6 @@ h4{
     .group{
       display: grid;
       grid-template-columns: repeat(1,1fr);
-      grid-template-rows: repeat(4,1fr);
       margin-left: 85px;
       height: 80%;
       width: 70%;
@@ -250,9 +250,9 @@ h4{
 /*/////////////////////////// End of Mobile View \\\\\\\\\\\\\\\\\\\\\\*/
 /*/////////////////////////// Tablet View \\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 @media only screen 
-  and (min-device-width: 481px) 
-  and (max-device-width: 780px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (min-device-width: 551px) 
+  and (max-device-width: 968px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 
     .container_1{
       display: grid;
@@ -265,10 +265,10 @@ h4{
     }
     .grid{
       display: grid;
-      grid-template-columns: repeat(3,2fr);
-      margin-left: -15px;
+      grid-template-columns: repeat(2,1fr);
+      margin-left: 55px;
     }
-    .middle{
+    .middle{ 
       margin-left: -5px;
     }
     .group{
