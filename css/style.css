@@ -2,62 +2,6 @@
     border-radius: 50%;
     margin-top: 5%;
 }
-.avatar {
-	-webkit-animation: vibrate-1 0.3s linear infinite both;
-	        animation: vibrate-1 0.3s linear infinite both;
-}
- @-webkit-keyframes vibrate-1 {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  20% {
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
-  }
-  40% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  80% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
-@keyframes vibrate-1 {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  20% {
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
-  }
-  40% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  80% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
 /* Selected Works */
 .container_1{
     display: grid;
@@ -100,9 +44,9 @@ hr {
 }
 /* Body of html */
 body{
-    margin-left: 165px;
-    margin-right: 280px;
-    background-color: black;
+    margin-left: 315px;
+    margin-right: 340px;
+    background-color: #101A24;
     line-height: 1.2;
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
 }
@@ -117,7 +61,7 @@ hr {
 /* Color of text */
 a {
     text-decoration: none;
-    color: yellow;
+    color: #ff3;
 }
 /* Hover over pictures */
 a :hover{
@@ -168,11 +112,11 @@ img:hover {
 /* Small headings for pictures */
 h2{
     margin-bottom: auto;
-    color: yellow;
+    color: #ff3;
 }
 /* Yellow text links */
 h3{
-    color: yellow;
+    color: #ff3;
     text-decoration: none;
     font-weight: 400;
 }
@@ -182,7 +126,7 @@ h4{
 }
 /* Footer */
 .foot {
-    color: yellow;
+    color: #ff3;
     font-size: 20px;
     float: left;
     margin-left: auto;
@@ -206,20 +150,20 @@ h4{
       grid-template-columns: repeat(1,1fr);
       grid-template-rows: repeat(9,1fr);
       grid-column-gap: 15px;
-      grid-row-gap: 15px;
+      grid-row-gap: 25px;
       margin-top: 5px; 
       text-align: center;
     }
     img {
-      height: 50%;
-      width: 50%;
+      height: 40%;
+      width: 100%;
     }
     .grid{
       display: list-item;
       grid-template-columns: repeat(1,1fr);
       grid-template-rows: repeat(1,1fr);
-      height: 80%;
-      width: 70%;
+      height: 70%;
+      width: 100%;
       text-align: right;
       margin-left: -50px;
     }
@@ -230,8 +174,8 @@ h4{
       display: grid;
       grid-template-columns: repeat(1,1fr);
       margin-left: 85px;
-      height: 80%;
-      width: 70%;
+      height: 70%;
+      width: 100%;
     }
     h1{
       text-align: center;
@@ -279,7 +223,7 @@ h4{
     }
       img {
         height: 225px;
-        width: 250px;
+        width: 100%;
         }
       h1{
         text-align: center;
@@ -298,5 +242,5 @@ h4{
         font-size: 15px;
         }
       }
-      /* End of Table */
+      /* End of Tablet view */
     
