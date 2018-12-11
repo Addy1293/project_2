@@ -73,8 +73,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
 /* Big Photo */
 .middle {
@@ -100,8 +100,8 @@ hr {
 }
 /* Body of html */
 body{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 165px;
+    margin-right: 280px;
     background-color: black;
     line-height: 1.2;
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
