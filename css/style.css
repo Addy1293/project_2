@@ -44,8 +44,9 @@ hr {
 }
 /* Body of html */
 body{
-    margin-left: 315px;
-    margin-right: 340px;
+    border-top: 18px solid hsla(0,0%,100%,.25);
+    margin-left: 320px;
+    margin-right: 450px;
     background-color: #101A24;
     line-height: 1.2;
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
@@ -144,7 +145,16 @@ h4{
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 550px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .avatar{
+      height: 50%;
+      width: 50%;
+    }
+    body{
+      margin-left: 0%;
+      margin-right: 0%;
+    }
     .container_1{
       display: grid;
       grid-template-columns: repeat(1,1fr);
@@ -153,6 +163,8 @@ h4{
       grid-row-gap: 25px;
       margin-top: 5px; 
       text-align: center;
+      font-size: 40px;
+      
     }
     img {
       height: 40%;
@@ -164,18 +176,19 @@ h4{
       grid-template-rows: repeat(1,1fr);
       height: 70%;
       width: 100%;
-      text-align: right;
-      margin-left: -50px;
+      text-align: center;
+      margin-left: 0px;
     }
     .middle {
-      margin-left: 16px;
+      margin-left: 0px;
     }
     .group{
       display: grid;
       grid-template-columns: repeat(1,1fr);
-      margin-left: 85px;
+      margin-left: 0px;
       height: 70%;
       width: 100%;
+      font-size: 50px;
     }
     h1{
       text-align: center;
