@@ -1,74 +1,32 @@
-# project_2
-live link:https://addy1293.github.io/project_2/index.html
-
-Updates To Jon Chretien
-## 1st Coding project
-
-- Created a repo on github called Online_CV_Final.
-- Made the website live.
-- Create a folder structure using our command line.
-- Created a index.html file and created a boiler plate.
-
-## Technology, Tool and Resources used:
-
-```
-Languages
-- HTML
-- CSS
-
-```
-
-```
-Tools
-- VS Code
-- Gitbash
-
-```
-
-```
-Resources
-- Google fonts
-- FontAwesome
-
-````
-
-# Links and Folders
-- Initialised Readme file
-- Live Link Created
-
-# Contributors:
-    Adam Gool
-
-#Live Link:
-https://addy1293.github.io/project_2/index.html
 
 # Jon Chretien 
 
-- replicating the Jon Chretien website, using unique classes, IDs and Media Queries.
+- Recreate Jon Chretien Website.
+- Mobile Responsiveness added.
+- Correct css styling.
 
-## 11 December 
+## 10 December 
 
 - Added grey strip to the top of webpage.
-- Matched the color of the a tags(yellow).
-- Matched the body text color to the original website(white).
+- Matched the yellow of text.
+- Spaces closed off.
 
-## 12 December 
+## 11 December 
+ 
+ - Comments added to html and css.
+ - Responsiveness on Mobile and Tablet made cleaner.
 
-- Adjusted the font to match the original webpage font. 
-- added more indentation to the html document.
+## 14 December
 
-## 13 December
-
-- Adjusted the footer in all 3 responsive designs(mobile, tablet and desktop).
-- removed unneccesary classes and IDs.
+- Readme file filled in all what was changed.
 
 ## Technology, Tool and Resources used:
 
 ```
 Languages
-- html 
-- css
-- javaScript
+- HTML5 
+- CSS3
+- JavaScript
 
 
 ```
@@ -85,6 +43,7 @@ Languages
  - Jon Chretien website (original)
  - Google Fonts
  - W3schools
+ - Stack overflow
  
  ````
 
